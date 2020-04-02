@@ -1,0 +1,455 @@
+html, body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: Inter;
+	text-transform: lowercase;
+}
+
+.mainFrame{
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.checkOutMain{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  background-color: #778885;
+
+}
+
+#paypal-button-container{
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	top: 30%;
+	position: relative;
+}
+
+/* !!! firstSection !!! */
+.firstSection{
+	width: 100%;
+	height: 100%;
+ background-image: url("img/hapsmain.jpg");
+ background-size: cover;
+ background-position: center;
+ position: fixed;
+ background-color: #778885;
+}
+
+.hapsSmile{
+	width: 40%;
+	height: 40%;
+	position: relative;
+	margin: 0 auto;
+	top: 30%;
+	background-image: url("img/hapo.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+
+
+
+/* !!! Second Section !!! */
+.secondSection{
+	width: 100%;
+	height: 320%;
+	position: relative;
+	top: 100%;
+	background-color: white;
+}
+
+.textFrame{
+	width: 60%;
+	height: 100%;
+}
+
+/* !!! Wind Breaker !!! */
+
+.windBreaker{
+	width: 100%;
+	height: 17%;
+	background-color: white;
+	top: 100%;
+	position: relative;
+}
+
+/* !!! Third Section !!! */
+.thirdSection{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 100%;
+	background-color: #f4f1ee;
+}
+
+.shopFrame{
+	width: 100%;
+	height: 100%;
+}
+
+
+.shopBoxA {
+	width: 30%;
+	height: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+.whatShopFrame{
+	width: 100%;
+	height: 60%;
+
+}
+.buyMe{
+	width: 60%;
+	height: 15%;
+	border: none;
+	border-radius: 2%;
+	background-color: #47afa3;
+	margin-top: 10%;
+
+
+}
+
+.shopBoxC {
+	width: 60%;
+	height: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+	background-image: url("img/carepackxx.png");
+	background-size: contain;
+	background-position:  center;
+	background-repeat: no-repeat;
+}
+
+
+
+.shopBrake{
+	width: 5%;
+	height: 100%;
+	float: left;
+}
+
+.shopBrakeX{
+	width: 3%;
+	height: 100%;
+	float: left;
+}
+
+/* !!! Fourth Section !!! */
+.fourthSection{
+	width: 100%;
+	height: 190%;
+	background-color: white;
+	position: relative;
+	top: 100%;
+}
+
+.textFrameFour{
+		width: 60%;
+	height: 92%;
+}
+
+.bottomMenu{
+	width: 100%;
+	height: 5%;
+	display: flex;
+justify-content: space-between;
+}
+
+
+
+/* !!! Fonts !!! */
+
+h1{
+	margin: 0;
+	padding: 0;
+	font-size: 10vh;
+	color: #2b2b2b;
+}
+
+h2{
+	margin: 0;
+	padding: 0;
+	font-size: 5.4vh;
+		color: #15363f;
+}
+
+h3{
+	margin: 0;
+	padding: 0;
+	font-size: 6vh;
+	font-weight: 500;
+}
+
+h4{
+	margin: 0;
+	padding: 0;
+	font-size: 3vh;
+	line-height: 155%;
+	font-weight: 400;
+	color: #15363f;
+
+}
+
+
+
+
+
+/* !!! Media Queries !!! */
+@media only screen and (max-width: 394px) {
+  h1 {
+    font-size:8vh;
+  }
+
+	h4{
+		font-size: 2.1vh;
+	}
+}
+
+
+
+
+/*!!!! !!!! !!!! !!!! !!!! !!!! !!!! !!!! !!!! !!! IPADs !!!! !!!! !!!! !!!! !!!! !!!! !!!! !!!! !!!! */
+
+/* !!!  Normal  IPAD  Vertical !!!! */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+
+	h1{
+	font-size:8vh;
+	}
+
+	h4{
+		font-size: 2.3vh;
+	}
+
+	h2{
+		font-size: 3.5vh;
+	}
+
+	.textFrame{
+		width: 100%;
+	}
+
+	.secondSection{
+		height: 280%;
+	}
+
+	.textFrameFour{
+		width: 100%;
+		height: 89%;
+	}
+
+	.fourthSection{
+		height: 170%:
+	}
+
+	.thirdSection{
+		height: 90%;
+	}
+
+	.shopBoxA{
+	width: 57%;
+	}
+
+	.shopBoxC{
+		width: 40%;
+		background-image: url("img/carepack.png");
+	}
+
+	.windBreaker{
+		height: 8%;
+	}
+
+}
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+	h4{
+			font-size: 3.1vh;
+	}
+
+	.secondSection{
+		height: 292%;
+	}
+
+
+	.fourthSection{
+		height: 160%;
+	}
+
+	.textFrameFour{
+		height: 94%;
+	}
+}
+
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+		.textFrame{
+			width: 100%;
+		}
+
+	.textFrameFour{
+		width: 100%;
+		height: 86%;
+	}
+
+.windBreaker{
+	height: 0%;
+	}
+
+}
+
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1112px)
+  and (max-device-width: 1112px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.fourthSection{
+		height: 189%;
+	}
+
+	.textFrameFour{
+		height: 91%;
+	}
+}
+
+
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.fourthSection{
+		height: 186%;
+	}
+
+	.textFrameFour{
+		height: 91%;
+	}
+}
+
+
+@media only screen
+  and (min-device-width: 1366px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	h1{
+		font-size: 8vh;
+	}
+
+h4{
+	font-size: 2.72vh;
+}
+
+h2{
+	font-size: 5vh;
+}
+
+.textFrameFour{
+	height: 87%;
+}
+
+}
+
+
+/*!!!! !!!! !!!! !!!! !!!! !!!! !!!! !!!! !!!! !!! Iphone !!!! !!!! !!!! !!!! !!!! !!!! !!!! !!!! !!!! */
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.textFrame{
+		width:  100%;
+		width: 96%;
+	}
+
+h1{
+	font-size: 7.5vh;
+}
+
+h2{
+	font-size: 2.4vh;
+
+}
+.textFrameFour{
+	width: 100%;
+	height: 95%;
+}
+
+.shopBoxA{
+	float: none;
+	width: 100%;
+}
+
+.shopBrakeX{
+	display: none;
+}
+
+.shopBoxC{
+	display: none;
+}
+
+.windBreaker{
+	height: 0%;
+}
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+	h1{
+		font-size: 8.5vh;
+	}
+
+	h2{
+		font-size: 4.5vh;
+	}
+
+.shopBrakeX{
+	float: left;
+	display: initial
+}
+
+	h4{
+		font-size: 3.6vh;
+	}
+}
